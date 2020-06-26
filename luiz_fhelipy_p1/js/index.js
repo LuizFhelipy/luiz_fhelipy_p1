@@ -6,6 +6,8 @@ function start() {
         if (validateFields()) {
             if(validacao){
                 alert("SEJA BEM VINDO!")
+            }else{
+                showMessage();
             }
             clearfields()
         }
